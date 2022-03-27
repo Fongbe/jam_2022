@@ -37,13 +37,13 @@ Window::Window()
     this->sprites.push_back(new Sprite("assets/musicOffBig.png", 24, 24));
     this->sprites.push_back(new Sprite("assets/musicOffSmall.png", 24, 24));
     // 12-14 HELP ON
-    this->sprites.push_back(new Sprite("assets/help.png", 24, 24));
-    this->sprites.push_back(new Sprite("assets/helpBig.png", 24, 24));
-    this->sprites.push_back(new Sprite("assets/helpSmall.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOn.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOnBig.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOnSmall.png", 24, 24));
     // 15-17 HELP OFF
-    this->sprites.push_back(new Sprite("assets/help.png", 24, 24));
-    this->sprites.push_back(new Sprite("assets/helpBig.png", 24, 24));
-    this->sprites.push_back(new Sprite("assets/helpSmall.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOff.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOffBig.png", 24, 24));
+    this->sprites.push_back(new Sprite("assets/helpOffSmall.png", 24, 24));
     // 18-20 PAUSE ON
     this->sprites.push_back(new Sprite("assets/pauseOn.png", 24, 24));
     this->sprites.push_back(new Sprite("assets/pauseOnBig.png", 24, 24));
