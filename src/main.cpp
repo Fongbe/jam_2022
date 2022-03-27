@@ -11,6 +11,6 @@ int main()
 {
     Window wn;
 
-    wn.menu();
+    wn.loop();
     return 0;
 }

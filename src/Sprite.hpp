@@ -15,7 +15,7 @@
 class Sprite
 {
     public:
-        Sprite(const std::string &path, float rotation, float origin);
+        Sprite(const std::string &path, float xorigin, float yorigin);
         ~Sprite() = default;
 
         sf::Sprite spr;

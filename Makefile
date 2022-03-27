@@ -11,9 +11,13 @@ CC	=	g++ -lsfml-graphics -lsfml-system -lsfml-window -lsfml-audio
 
 RM	=	rm -f
 
-SRCS	=	src/main.cpp		\
-			src/Window.cpp		\
-			src/Sprite.cpp		\
+SRCS	=	src/main.cpp					\
+			src/Window.cpp					\
+			src/Sprite.cpp					\
+			src/buttons/ButtonStart.cpp		\
+			src/buttons/ButtonMusic.cpp		\
+			src/buttons/ButtonQuit.cpp		\
+			src/buttons/ButtonHelp.cpp		\
 
 OBJS	= 	$(SRCS:.cpp=.o)
 
