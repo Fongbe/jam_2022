@@ -19,6 +19,11 @@ ButtonHelp::~ButtonHelp()
 {    
 }
 
+void ButtonHelp::reset()
+{
+    this->on = false;
+}
+
 bool ButtonHelp::onStep(int mouse_x, int mouse_y, bool mb_left, bool left_released)
 {
     int xdif = mouse_x - this->x;
@@ -30,7 +35,7 @@ bool ButtonHelp::onStep(int mouse_x, int mouse_y, bool mb_left, bool left_releas
         ydif = -1 * ydif;
     
     if (on) {
-        if (xdif < 24 && ydif < 24) {
+        if (xdif < 22 && ydif < 22) {
             if (mb_left)
                 this->spriteIndex = 14;
             else
@@ -41,7 +46,7 @@ bool ButtonHelp::onStep(int mouse_x, int mouse_y, bool mb_left, bool left_releas
             this->spriteIndex = 12;
         }
     } else  {
-        if (xdif < 24 && ydif < 24) {
+        if (xdif < 22 && ydif < 22) {
             if (mb_left)
                 this->spriteIndex = 17;
             else

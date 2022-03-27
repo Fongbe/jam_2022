@@ -2,16 +2,16 @@
 ** EPITECH PROJECT, 2022
 ** jam_2022
 ** File description:
-** ButtonHelp
+** ButtonPause
 */
 
-#ifndef BUTTONHELP_HPP_
-#define BUTTONHELP_HPP_
+#ifndef BUTTONPAUSE_HPP_
+#define BUTTONPAUSE_HPP_
 
-class ButtonHelp {
+class ButtonPause {
     public:
-        ButtonHelp(int _x, int _y);
-        ~ButtonHelp();
+        ButtonPause(int _x, int _y);
+        ~ButtonPause();
         int getx();
         int gety();
         int getSpriteIndex();
@@ -19,10 +19,10 @@ class ButtonHelp {
         void reset();
 
     private:
+        int on;
         int x;
         int y;
         int spriteIndex;
-        bool on;
 };
 
-#endif /* !BUTTONHELP_HPP_ */
+#endif /* !BUTTONPAUSE_HPP_ */

@@ -2,27 +2,25 @@
 ** EPITECH PROJECT, 2022
 ** jam_2022
 ** File description:
-** ButtonHelp
+** ButtonHome
 */
 
-#ifndef BUTTONHELP_HPP_
-#define BUTTONHELP_HPP_
+#ifndef BUTTONHOME_HPP_
+#define BUTTONHOME_HPP_
 
-class ButtonHelp {
+class ButtonHome {
     public:
-        ButtonHelp(int _x, int _y);
-        ~ButtonHelp();
+        ButtonHome(int _x, int _y);
+        ~ButtonHome();
         int getx();
         int gety();
         int getSpriteIndex();
         bool onStep(int mouse_x, int mouse_y, bool mb_left, bool left_released);
-        void reset();
 
     private:
         int x;
         int y;
         int spriteIndex;
-        bool on;
 };
 
-#endif /* !BUTTONHELP_HPP_ */
+#endif /* !BUTTONHOME_HPP_ */

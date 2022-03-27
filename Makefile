@@ -14,10 +14,13 @@ RM	=	rm -f
 SRCS	=	src/main.cpp					\
 			src/Window.cpp					\
 			src/Sprite.cpp					\
-			src/buttons/ButtonStart.cpp		\
-			src/buttons/ButtonMusic.cpp		\
 			src/buttons/ButtonQuit.cpp		\
 			src/buttons/ButtonHelp.cpp		\
+			src/buttons/ButtonHome.cpp		\
+			src/buttons/ButtonStart.cpp		\
+			src/buttons/ButtonMusic.cpp		\
+			src/buttons/ButtonPause.cpp		\
+			src/buttons/ButtonRestart.cpp	\
 
 OBJS	= 	$(SRCS:.cpp=.o)
 
